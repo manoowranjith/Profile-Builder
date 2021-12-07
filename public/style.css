@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+    
+}
+body{
+    background: rgb(250, 242, 240);
+}
+
+header{
+    padding:40px 30px 25px 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image:url("./images/Violet.jpg");
+    background-size: cover;
+    color: white;
+
+}
+.profile{
+    text-align: center;
+}
+.dp{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.profile>p{
+    margin-top:5px;
+}
+.contact{
+    text-align: left;
+}
+.contact>h2{
+    margin-bottom: 30px;
+}
+.contact>p{
+    font-size: 18px;
+    margin-bottom:25px;
+}
+.follow{
+    text-align: center;
+}
+.follow>h2{
+    margin-bottom: 30px;
+}
+.follow-links
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 15px; 
+}
+.link
+{
+    width: 50px;
+    height: 50px;
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:link,:visited
+{
+    color: white;
+}
+.visit{
+    text-align: center;
+}
+.visit>h2{
+    margin-bottom: 30px;
+}
+.visit-link{
+    display: flex;
+    justify-content: center;
+}
+.visit-message{
+    margin-top: 30px;
+}
+
+section{
+    padding:20px 40px;
+    display: grid;
+    grid-template-columns: 50vw 50vw ;
+    grid-template-rows: auto auto;
+    grid-gap: 15px; 
+}
+.intro{
+    text-align: left;
+    border:1px solid black;
+}
+.hello{
+    font-size: 64px;
+    letter-spacing: 3px;
+    color: rgb(250, 242, 240);
+    text-shadow: -2px -2px 0 rgb(255, 166, 0), 2px -2px 0 rgb(255, 166, 0), -2px 2px 0 rgb(255, 166, 0), 2px 2px 0 rgb(255, 166, 0);
+    transform: translateX(-15px);
+}
+.intro-about{
+    padding:30px;
+}
+.education{
+    letter-spacing: 2px;
+    padding:30px;
+    border:1px solid black;
+}
+hr{
+    width: 50%;
+    margin:30px 0px;
+    transform: translateX(-30px);
+}
+.bullets{
+    text-align: center;
+}
+.education-details{
+    display: flex;
+    justify-content: flex-start;
+}
+.place{
+    margin-left: 100px;
+}
+.creativity{
+    padding:30px
+}
+.speciality{
+    /* border:1px solid black; */
+    padding:30px;
+}
+.special-icon
+{
+    display: flex;
+    justify-content: space-around;
+}
+.special-skill
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.special-skill>div>p{
+    margin:30px 0px;
+}
+.creativity{
+    border:1px solid black;
+    padding:30px;
+}
+.cando>h4{
+    padding-bottom:10px;
+}
+.can{
+    position: relative;
+}
+.create-name{
+    -webkit-transform: rotate(-90deg);
+    color: rgb(122, 116, 116);
+    position: absolute;
+    top: 25%;
+    right: 100%;
+    width: 130%;
+}
+/* .can{
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+} */
+/* .creative-flex{
+    display: flex;
+    justify-content: space-around;
+} */
+.software{
+    padding:30px;
+    border:1px solid black;
+}
+.hobbies{
+    padding:30px;
+    border:1px solid black;
+    width: 100vw;
+}
+.hobby-icon{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    text-align: center;
+
+}
+/* .hobby-name{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+} */
